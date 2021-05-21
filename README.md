@@ -7,7 +7,7 @@ A mixin for Laravel's `Stringable` to easily apply colors and styles to CLI text
 You can install the package via Composer:
 
 ```
-composer require jbrooksuk/colorize
+composer require jbrooksuk/laravel-colorize
 ```
 
 ## Usage
