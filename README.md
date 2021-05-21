@@ -59,3 +59,11 @@ Make the text underscored.
 ```php
 Str::of('Hey Laravel')->underscore();
 ```
+
+## Chaining
+
+Of course, because Laravel Colorize uses `Stringable`, all of these methods can be chained together. 
+
+```php
+Str::of('Hey Laravel')->colorize('red', 'yellow')->bold()->blink();
+```
