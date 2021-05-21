@@ -9,7 +9,6 @@
             "email": "james@alt-three.com"
         }
     ],
-    "minimum-stability": "dev",
     "require": {
         "illuminate/support": "^8.0",
         "symfony/console": "^5.4"
