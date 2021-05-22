@@ -6,7 +6,9 @@
     "authors": [
         {
             "name": "James Brooks",
-            "email": "james@alt-three.com"
+            "email": "james@alt-three.com",
+            "homepage": "https://james.brooks.page",
+            "role": "Developer"
         }
     ],
     "require": {
