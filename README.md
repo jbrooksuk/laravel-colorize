@@ -2,6 +2,9 @@
 
 A mixin for Laravel's `Stringable` to easily apply colors and styles to CLI text.
 
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/jbrooksuk/laravel-colorize.svg?style=flat-square)](https://packagist.org/packages/jbrooksuk/laravel-colorize)
+[![Total Downloads](https://img.shields.io/packagist/dt/jbrooksuk/laravel-colorize.svg?style=flat-square)](https://packagist.org/packages/jbrooksuk/laravel-colorize)
+
 ## Installation
 
 You can install the package via Composer:
