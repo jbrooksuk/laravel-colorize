@@ -52,7 +52,7 @@ Str::of('Hey Laravel')->conceal();
 Swap the foreground with the background and the background with the foreground.
 
 ```php
-Str::of('Hey Laravel')->reverse();
+Str::of('Hey Laravel')->colorize('red', 'blue')->reverse();
 ```
 
 ### `underscore`
@@ -65,7 +65,7 @@ Str::of('Hey Laravel')->underscore();
 
 ## Chaining
 
-Of course, because Laravel Colorize uses `Stringable`, all of these methods can be chained together. 
+Because Laravel Colorize uses `Stringable`, all of these methods can be chained together. 
 
 ```php
 Str::of('Hey Laravel')->colorize('red', 'yellow')->bold()->blink();
