@@ -2,12 +2,15 @@
 
 namespace JamesBrooks\Colorize\Tests;
 
-use PHPUnit\Framework\TestCase as BaseTestCase;
+use JamesBrooks\Colorize\ColorizeServiceProvider;
+use Orchestra\Testbench\TestCase as Orchestra;
 
-abstract class TestCase extends BaseTestCase
+abstract class TestCase extends Orchestra
 {
-    protected function markTestSucceeded()
+    protected function getPackageProviders($app)
     {
-        $this->assertTrue(true);
+        return [
+            ColorizeServiceProvider::class
+        ];
     }
 }

@@ -12,10 +12,12 @@
         }
     ],
     "require": {
+        "php": "^7.3|^8.0",
         "illuminate/support": "^8.0",
         "symfony/console": "^5.3"
     },
     "require-dev": {
+        "orchestra/testbench-core": "^5.0|^6.0",
         "phpunit/phpunit": "^9.3"
     },
     "autoload": {
@@ -43,5 +45,11 @@
         }
     },
     "minimum-stability": "dev",
-    "prefer-stable": true
+    "prefer-stable": true,
+     "funding": [
+        {
+            "type": "github",
+            "url": "https://github.com/sponsors/jbrooksuk"
+        }
+    ]
 }

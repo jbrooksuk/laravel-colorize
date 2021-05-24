@@ -3,7 +3,6 @@
 namespace JamesBrooks\Colorize\Tests;
 
 use JamesBrooks\Colorize\ColorizeString;
-use Symfony\Component\Console\Exception\InvalidArgumentException;
 
 class ColorizeStringTest extends TestCase
 {
